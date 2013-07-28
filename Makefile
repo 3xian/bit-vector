@@ -1,6 +1,6 @@
 AR = ar
 AR_FLAGS = crv
-CXX = c++
+CXX = g++
 CXX_FLAGS = -O2 -g -Wall -std=c++0x
 
 .PHONY: all clean

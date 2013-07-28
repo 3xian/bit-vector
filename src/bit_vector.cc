@@ -56,7 +56,7 @@ uint64_t BitVector::Rank(uint64_t bit, uint64_t pos) const {
 
 std::string BitVector::ToString() const {
     std::string str(size_, '0');
-    for (int i = 0; i < size_; ++i) {
+    for (size_t i = 0; i < size_; ++i) {
         if ((*this)[i] == 1) {
             str[i] = '1';
         }
