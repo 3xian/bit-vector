@@ -1,14 +1,12 @@
 bit-vector
 ===
 
-#### Time Complexity
+### Time Complexity
 
-**rank:** `O(log(N/256))`
+rank: `O(log(N/256))`
 
-**select:** `O(log(N/256))`
+select: `O(log(N/256))`
 
-#### Space Complexity
+### Space Complexity
 
-**rank:** `O(log(N/256))`
-
-**select:** `O(log(N/256))`
+`O(N/64)`
