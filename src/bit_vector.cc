@@ -12,9 +12,9 @@ BitVector::~BitVector() {
 }
 
 void BitVector::Init(size_t size) {
-	size_ = size;
-	size_t blocks_size = (size + kBlockSize - 1) / kBlockSize;
-	blocks_ = std::vector<uint64_t>(blocks_size, 0);
+    size_ = size;
+    size_t blocks_size = (size + kBlockSize - 1) / kBlockSize;
+    blocks_ = std::vector<uint64_t>(blocks_size, 0);
 }
 
 void BitVector::Clear() {
