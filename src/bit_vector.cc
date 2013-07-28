@@ -30,7 +30,7 @@ size_t BitVector::Count() const {
 
 }
 
-void BitVector::PushBack() {
+void BitVector::PushBack(int bit) {
 
 }
 

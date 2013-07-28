@@ -16,7 +16,7 @@ public:
     size_t Size() const;
     size_t Count() const;
 
-    void PushBack();
+    void PushBack(int bit);
     void PopBack();
 
     int operator [](size_t index) const;
