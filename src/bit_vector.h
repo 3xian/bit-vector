@@ -8,7 +8,7 @@ namespace seiya {
 class BitVector {
 public:
     BitVector(size_t size = 0);
-    virtual ~BitVector();
+    ~BitVector();
 
     void Init(size_t size);
     void Clear();
