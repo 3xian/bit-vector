@@ -2,11 +2,10 @@ bit-vector
 ===
 
 ### Time Complexity
-
-rank: `O(log(N/256))`
-
-select: `O(log(N/256))`
++ rank: `O(log(N/B/G))`
++ select: `O(log(N/B/G))`
 
 ### Space Complexity
++ `O(N/B)`
 
-`O(N/64)`
+Assuming that `B=64` and `G=8`.
